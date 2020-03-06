@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+#cabecalho {
+    background: #f7b600;
+    text-align: center;
+    padding: 15px;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+#color-logo {
+    color: #4e4e4e;
+}
+
+#branco {
+    color: #FFF;
+}
+
+a {
+    text-decoration: none;
+    color: #f7b600;
+    padding: 5px 0;
+
+}
+
+/* Layout menu cabeçalho */
+
+#area-menu a:visited, a:link {
+    color: #FFF
+}
+
+#area-menu a {
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+#area-menu a:hover {
+    color: #f7b600;
+    background: #FFF;
+}
+
+/*Final cabeçalho*/
+
+#area-principal {
+    width: 920px;
+    margin: 20px auto;
+}
+
+/*Feed principal*/
+
+#area-postagem {
+    width: 660px;
+    float: left;
+}
+
+/*#area-postagem, #area-lateral {
+    background: #f7b600;
+}*/
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+
+.title-post {
+    color: #f7b600;
+}
+
+.data-text {
+    font-size: 0.8em;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+}
+
+.text-post {
+    padding-bottom: 5px;
+}
+
+/*Areas laterais*/
+
+.conteudo-lateral {
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+
+/*Postagens recentes*/
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 2px solid #CCC;
+}
+
+.title-size-box {
+    padding: 7px;
+    background-color: #CCC;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+
+}
+
+/*Categorias*/
+
+.postagem-lateral-categorias {
+    padding: 5px;
+    margin: 5px;
+}
+
+#rodape {
+    clear: both;
+    background: #CCC;
+    text-align: center;
+    padding: 15px;
+}
