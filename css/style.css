@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* COLOR: background: #f7b600; */
+
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+img {
+    width: 100%;
+}
+
+.background-header {
+    width: 100%;
+    background-color: #f7b600;
+    padding: 24px 0;
+    margin-bottom: 24px;
+}
+
+.h1-color {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #4e4e4e;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.span-color {
+    color: #fff;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu li {
+    text-align: center;
+    display: inline-block;
+}
+
+.menu li a {
+    font-size: 1.2em;
+    color: #fff;
+    padding: 12px 8px;
+}
+
+.menu li a:hover {
+    color: #f7b600;
+    background-color: #fff;
+    border-radius: 8%;
+}
+
+/* MAIN */
+
+.section-general {
+    background-color: #fff;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.section-title {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #f7b600;
+    margin-bottom: 8px;
+}
+
+.date-text {
+    border-bottom: 1px;
+    border-style: dotted;
+    border-color: #4e4e4e;
+    margin-bottom: 8px;
+}
+
+.description-text {
+    margin: 8px 0;
+}
+
+.keep-reading {
+    font-weight: bolder;
+    color: #f7b600;
+    padding: 4px;
+}
+
+.keep-reading:hover {
+    color: #fff;
+    background-color: #f7b600;
+}
+
+.recent-post {
+    margin-bottom: 16px;
+    padding: 8px;
+    background-color: #fff;
+}
+
+.title-recentpost {
+    margin: 8px;
+    padding: 4px;
+    color: #000;
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: #CCC;
+}
+
+.text-recentpost {
+    margin: 8px;
+}
+
+.categories {
+    margin: 8px;
+    padding: 8px;
+    background-color: #fff;
+}
+
+.categories li {
+    margin-bottom: 8px;
+}
+
+.categories a {
+    color: #f7b600;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.categories a:hover {
+    color: #fff;
+    background-color: #f7b600;
+}
+
+.categories-geral {
+    border-bottom: 1px;
+    border-color: #4e4e4e;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #CCC;
+}
+
+.allrights {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 16px 0;
+}
+
+@media only screen and (max-width: 787px) {
+    ul li {
+        margin-bottom: 30px;
+    }
+}
